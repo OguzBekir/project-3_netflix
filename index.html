@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Sorts+Mill+Goudy:ital@1&display=swap"
+      rel="stylesheet"
+    />
+<link rel="stylesheet" href="style.css">
+    <title>Netflixs</title>
+</head>
+<body>
+<div id="container">
+    <header>
+        <h1> <span>NET</span>FLIX</h1>
+        <p>Thank you for signing up at Netflix. Tell us more about your self</p>
+    </header>
+    <main>
+        <form action="">
+            <div class="imput-text">
+                <label for="name">Name</label><br>
+                <input id="name" type="text" value="" placeholder="Adinizi Giriniz" required>
+            </div>
+            <div class="imput-text">
+                <label for="age">Age</label><br>
+                <input id="age" type="number" value="" placeholder="Yasinizi Giriniz" required min="18">
+            </div>
+            <div class="imput-text">
+                <label for="">Email</label><br>
+                <input id="email" type="email" value="" placeholder="E-mail Adresi Giriniz" required>
+            </div>
+            <div class="input-text">
+                <label for="content">Content type</label><br>
+                <select name="cotent" id="content">
+                    <option value="series">Series</option>
+                    <option value="movies">Movies</option>
+                    <option value="documentary">Documentary</option>
+                </select>
+            </div>
+            <div id="checkbox">
+                <label for="">Movie type</label><br>
+                <input  id="comedy" type="checkbox">
+                <label for="comedy">Comedy</label><br>
+                <input  id="action" type="checkbox">
+                <label for="action">Action</label><br>
+                <input  id="romance" type="checkbox">
+                <label for="romance">Romance</label><br>
+                <input  id="harror" type="checkbox">
+                <label for="harror">Harror</label>
+            </div>
+            <div id="radio">
+                <label for="">Gender</label><br>
+                <input  id="male" type="radio" name="radio">
+                <label for="male">Male</label><br>
+                <input  id="famale" type="radio"name="radio">
+                <label for="famale">Famele</label><br>
+                <input  id="other" type="radio" name="radio">
+                <label for="other">Other</label>
+            </div>
+            <div id="feedback">
+                <label for="feedback">Feedback</label><br>
+                <textarea name="feed-back" id="feedback" cols="30" rows="6" placeholder="Mesajinizi Giriniz"></textarea>
+            </div>
+            <div class="send">
+                <button id="send" type="submit" value="Send">Send</button>
+            </div>
+            
+        </form>
+    </main>
+</div>
+</body>
+</html>
